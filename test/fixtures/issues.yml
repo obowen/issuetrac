@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  details: MyText
+  reported_by: MyString
+  assigned_to: MyString
+  status: 1
+
+two:
+  title: MyString
+  details: MyText
+  reported_by: MyString
+  assigned_to: MyString
+  status: 1

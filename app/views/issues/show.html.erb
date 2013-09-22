@@ -1,0 +1,27 @@
+<p>
+  <strong>Title:</strong>
+  <%= @issue.title %>
+</p>
+ 
+<p>
+  <strong>Details:</strong>
+  <%= @issue.details %>
+</p>
+
+<p>
+  <strong>Reported By:</strong>
+  <%= @issue.reported_by %>
+</p>
+
+<p>
+  <strong>Assigned To:</strong>
+  <%= @issue.assigned_to %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @issue.status %>
+</p>
+
+<%= link_to 'Back', issues_path %> | 
+<%= link_to 'Edit', edit_issue_path(@issue) %>
